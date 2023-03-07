@@ -49,17 +49,23 @@ button{
     min-height:80%;
     width:60%;
     margin:50px auto;
-    display: flex;
-    flex-direction: column;
     color: white;
-    align-items: center;
+    text-align: center;
     /* background-color: #EE82EE; */
+}
+.sottotitolo{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    line-height: 2rem;
 }
 .bgblack{
     background-color: #23272A;
     color: white; 
 }
 /* fine header */
+h2{
+    font-size: 32px;
+}
 .container{
     min-height: 600px;   
     padding-top: 50px;
@@ -70,30 +76,61 @@ button{
     width: 70%;
     min-height: 500px;
 }
-.bgazzurro{
-    background-color: #1E90FF;
+.immagine{
+    /* background-color: #1E90FF; */
+    background-repeat: no-repeat;
     width: 66%;
 }
-.bgrosa{
-    background-color: #FFC0CB;
+.immagine.rana{
+    background-image: url(../img/item1.svg);
+}
+
+.descrizione{
+    /* background-color: #FFC0CB; */
     width: 33%;
+    margin-top: 40px;
+}
+.sottotitolodesc1{
+    
+    line-height: 2rem;
+    margin-top: 100px;
+}
+.sottotitolodesc2{
+    margin-top: 40px;
+
+}
+.sottotitolodesc3{
+    margin-top: 40px;
+    line-height: 1.5rem;
 }
 .container.grigio{
     background-color: #D3D3D3;
     margin-top: 50px;
 }
-.container.grigio2{
-    background-color: #D3D3D3;
+.immagine.mago{
+    background-image: url(../img/item2.svg);
+}
+.immagine.alieno{
+     background-image: url(../img/item3.svg);
+}
+
+.container.titoloimg{
+    /* background-color: #D3D3D3; */
     min-height: 1000px;
+}
+.margin{
+    margin-left: 60px;
 }
 .flexmain.verde{
     min-height: 900px;
     margin-top: 0;
 }
 .verde{
-    background-color: green;
+    /* background-color: green; */
     margin-top:50px;
     margin-bottom: 50px;
+    background-image: url(../img/item4-big.svg);
+    background-repeat: no-repeat;
 }
 .grigioscuro{
     min-height: 740px;
