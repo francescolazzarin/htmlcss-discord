@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+.bg{
+    /* background-color: #ADD8E6; */
+    padding-top: 1em;
+    padding-bottom: 1em;  
+}
+.fa-brands{
+    color: white;
+}
+nav>a{
+    text-decoration: none;
+    color: white;
+    margin-right: 0.5em;
+}
+button{
+    border: none;
+    border-radius: 12px;
+    padding: 2px 2px 2px 2px;
+}
+
+.flexcontainer{
+    display: flex;
+    align-items: center;
+    /* background-color: #DAA520; */
+    justify-content: space-between;
+    max-width:70%;
+    margin: 0 auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    min-height: 3em;
+}
+.flexblue{
+    display: flex;
+    /* background-color: blue; */
+    min-height: 500px;  
+    align-items: center;
+    justify-content: center; 
+}
+.titolo{
+    min-height:80%;
+    width:60%;
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    /* background-color: #EE82EE; */
+}
+.bgblack{
+    background-color: #23272A;
+    color: white; 
+}
+/* fine header */
+.container{
+    min-height: 600px;   
+    padding-top: 50px;
+}
+.flexmain{
+    display: flex; 
+    margin: 0 auto;
+    width: 70%;
+    min-height: 500px;
+}
+.bgazzurro{
+    background-color: #1E90FF;
+    width: 66%;
+}
+.bgrosa{
+    background-color: #FFC0CB;
+    width: 33%;
+}
+.container.grigio{
+    background-color: #D3D3D3;
+    margin-top: 50px;
+}
+.container.grigio2{
+    background-color: #D3D3D3;
+    min-height: 1000px;
+}
+.flexmain.verde{
+    min-height: 900px;
+    margin-top: 0;
+}
+.verde{
+    background-color: green;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.grigioscuro{
+    min-height: 740px;
+    background-color: #23272A;
+}
+.flexfooter{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    min-height:570px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.flexcolumn{
+    display: flex;
+    flex-direction:column;
+}
+.perc{
+    width: calc(100% /4);
+}
+hr{
+    color: white;
+}
+.noteflex{
+
+    display: flex;
+    background-color: aquamarine;
+    margin: 0 auto;
+    max-width: 70%;
+    min-height: 80px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.logo{
+    font-size: 16px;
+    background-color: pink;
+    align-self: center;
+    align-content: center;
+
+}
+.bottone{
+    font-size: 16px;
+    background-color: pink;
+    align-self: center;
+    align-content: center;
+}
