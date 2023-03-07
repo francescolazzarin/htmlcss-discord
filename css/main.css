@@ -115,22 +115,20 @@ h2{
 }
 
 .container.titoloimg{
-    /* background-color: #D3D3D3; */
+    background-color: #D3D3D3;
     min-height: 1000px;
 }
 .margin{
     margin-left: 60px;
 }
-.flexmain.verde{
+.flexmain.bigimg{
     min-height: 900px;
-    margin-top: 0;
-}
-.verde{
-    /* background-color: green; */
-    margin-top:50px;
-    margin-bottom: 50px;
     background-image: url(../img/item4-big.svg);
     background-repeat: no-repeat;
+}
+.mac{
+     align-self: center;
+     padding-top: 150px;
 }
 .grigioscuro{
     min-height: 740px;
