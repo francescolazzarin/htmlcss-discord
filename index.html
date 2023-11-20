@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Struttura discord</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <header>
@@ -17,7 +18,7 @@
         <li><a href="">Sicurezza</a></li>
         <li><a href="">Assistenza</a></li>  
       </ul>
-      <button><a href="">Accedi</a></button>
+      <button class="bg-gray"><a href="">Accedi</a></button>
       <!--inserire un a essendo un btn accedi e quindi una call to action-->
     </nav>
     <!-- rimuovere flex? -->
@@ -26,7 +27,7 @@
       <p class="m-w70 centrato">Che tu faccia parte di un club scolastico,gruppo di gamer,comunità artistica mondiale,o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme,Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso</p>
       <div>
         <button>Scarica per mac</button>
-        <button>Apri Discord nel tuo browser</button>
+        <button class="bg-gray"><a href="">Apri Discord nel tuo browser</a></button>
       </div>
     </div>    
   </header>
@@ -35,109 +36,127 @@
     <section>
       <div class="flex-container centrato m-w70 gap-l">
         <figure class="col1">
+          <img src="./assets/img/item1.svg" alt="">
         </figure>
-        <div class="col2">
-          <h2></h2>
-          <p></p>
+        <div class="col2 ">
+          <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+          <p>I server Discord sono organizzati in canali tematici in cui puoi collaborare,condividere o semplicemente parlare della tua giornara sebza intasare una chat di gruppo</p>
         </div>
       </div>
     </section>
+    <div class="wave"></div>
     <section class="pari">
       <div class="flex-container centrato m-w70  gap-l">
         
         <figure class="col1">
-          <div class="col2">
-          <h2></h2>
-          <p></p>
-        </div>
+          <img src="./assets/img/item2.svg" alt="">
         </figure>
+        <div class="col2">
+          <h2>Dove trovarsi è facile</h2>
+          <p>Mettiti comodo in un canale vocale quando hai tempo.Gli amici nel tuo server possono vedere che sei li e unirsi istantaneamente senza dover chiamare</p>
+        </div>
+        
       </div>
     </section>
     <section>
       <div class="flex-container centrato m-w70 gap-l">
         <figure class="col1">
+          <img src="./assets/img/item3.svg" alt="">
           
         </figure>
         <div class="col2">
-          <h2></h2>
-          <p></p>
+          <h2>Da pochi a un fandom</h2>
+          <p>Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile.Concedi ai membri poteri speciali,cre canali privati,e molto altro.</p>
         </div>
       </div>
     </section>
     <!-- serve il flex? -->
     <section class="pari">
-      <div class="flex-container dir-col centrato m-w70 ">
-        <h2>1</h2>
-        <p>2</p>
-        <figure>immagine
+      <div class="m-w70 centrato text-center">
+        <h2>Teconologia affidabile per tenersi in contatto</h2>
+        <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza.Fai ciao in video,guarda gli amici giocare in streaming,o riunitevi in una sessione di disegno con la condivisione schermo.</p>
+        <figure>
+          <img src="./assets/img/item4-big.svg" alt="">
         </figure>
-        <div>
-          <span>3</span>
+        <div class="starred centrato">
+          <span>Pronto a iniziare la tua avventura?</span>
         </div>
-        <button>4</button>
+        <button class="bg-blu"><a href="">Scarica per Mac</a></button>
       </div>
     </section>
   </main>
   <footer>
       <!-- ulitlizzare ul con a invece che i span? -->
       <div class="flex-container centrato m-w70">
-        <div class="flex-container col dir-col">
-          <h3>1</h3>
+        <div class="flex-container col-1 dir-col">
+          <h3>il tuo posto per parlare</h3>
           <div>
-            <i>2</i>
-            <span>3</span>
-            <i>4</i>
+            <i></i>
+            <span>italiano</span>
+            <i></i>
           </div>
           <div>
-            <i>5</i>
-            <i>6</i>
-            <i>7</i>
-            <i>8</i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
           </div>
         </div>
         <div class="flex-container col dir-col ">
-          <h4>1</h4>
-          <span>2</span>
-          <span>3</span>
-          <span>4</span>
-          <span>5</span>
-          <span>6</span> 
+         <h3>Prodotto</h3>
+          <ul class="flex-container dir-col">
+            <li><a href="">Scarica</a></li>
+            <li><a href="">Perchè Discord</a></li>
+            <li><a href="">Sicurezza</a></li>
+            <li><a href="">Nitro</a></li>
+            <li><a href="">Assistenza</a></li>
+          </ul>
         </div>
-        <div class="flex-container col dir-col ">
-          <h4>1</h4>
-          <span>2</span>
-          <span>3</span>
-          <span>4</span>
-          <span>5</span>
-          <span>6</span>
+        <div class="flex-container col dir-col "> 
+         <h3>Compagnia</h3>
+         <ul class="flex-container dir-col">
+          <li><a href="">chi siamo</a></li>
+          <li><a href="">lavora con noi</a></li>
+          <li><a href="">marchio</a></li>
+          <li><a href="">redazione</a></li>
+          <li><a href="">negozio</a></li>
+         </ul>
           
         </div>
-        <div class= "flex-container col dir-col ">
-          <h4>1</h4>
-          <span>2</span>
-          <span>3</span>
-          <span>4</span>
-          <span>5</span>
-          <span>6</span>
-          <span>7</span>
-          <span>8</span>
-          <span>9</span>
-          <span>10</span>
-          <span>11</span>
+        <div class= "flex-container col dir-col">
+         <h3>Risorse</h3>
+          <ul class="flex-container dir-col">
+            <li><a href="">scarica</a></li>
+            <li><a href="">perchè discord</a></li>
+            <li><a href="">nitro</a></li>
+            <li><a href="">sicurezza</a></li>
+            <li><a href="">assistenza</a></li>
+            <li><a href="">scarica</a></li>
+            <li><a href="">perchè discord</a></li>
+            <li><a href="">nitro</a></li>
+            <li><a href="">sicurezza</a></li>
+            <li><a href="">assistenza</a></li>
+            <li><a href="">assistenza</a></li>
+          
+          </ul>
         </div>
-        <div class="flex-container col dir-col ">
-          <h4>1</h4>
-          <span>2</span>
-          <span>3</span>
-          <span>4</span>
-          <span>5</span>
-          <span>6</span>
+        <div class="flex-container col dir-col">
+         <h3>Norme</h3>
+          <ul class="flex-container dir-col">
+            <li><a href="">scarica</a></li>
+            <li><a href="">perchè discord</a></li>
+            <li><a href="">nitro</a></li>
+            <li><a href="">sicurezza</a></li>
+            <li><a href="">assistenza</a></li>
+          </ul>
         </div>
       </div>
       <hr class="m-w70 centrato">
       <div class="m-w70 flex-container centrato between">
-        <i></i>
-        <button></button>
+        <figure>
+          <img src="./assets/img/logo.svg" alt="">
+        </figure>
+        <button class="bg-blu"><a href="">registrati</a></button>
       </div>
 
   </footer>

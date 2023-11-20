@@ -2,36 +2,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial;
 }
 button{
     padding: 10px;
     border-radius: 20px;
 }
+p{
+    line-height: 1.5em;
+}
 header{
-    /* min-height: 700px;
-    background-color: blue; */
     background-image: url(./img/jumbo.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+h2{
+    font-weight: 900;
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 .flex-container{
     display: flex;
 }
 nav{
-    /* min-height: 70px;
-    background-color: red; */
+    
     align-items: center;
-    /* margin-inline: auto; */
     padding-block: 20px;
 }
-/* nav *,.flex-container *{
-    border: 1px solid gold;
-} */
 ul li{
     list-style-type:none ;
 
 }
-ul li a{
+a{
     text-decoration: none;
     color: white;
 }
@@ -42,14 +44,11 @@ header nav+div{
 ul,.dir-col{
     gap:20px
 }
-.m-w60{
-    max-width: 60%;
-    margin-block:100px;
-}
+
 .dir-col{
     flex-direction: column;
-    /* gap: 20px; */
-    align-items: center;
+    gap: 10px;
+    /* align-items: center; */
 }
 img{
     width: 100%;
@@ -62,25 +61,31 @@ img{
     gap: 80px; 
 }
 .col1{
-   flex-basis: 75%;
+   flex-basis: 70%;
+
 }
 .col2{
-    flex-basis: 25%;
+    flex-basis: 30%;
+    padding-block: 40px;
+  
 }
-main section:nth-child(even){
+main section.pari{
     background-color: lightgray;
 }
 section{
-    padding-block: 100px;
+    padding-block: 100px; 
+   
 }
 footer{
-    background-color: black;
-    min-height: 500px;
+    padding-block: 50px;
     color: white;
-    padding-block: 100px;
+}
+.col-1{
+    flex-basis: 35%;
 }
 .col{
-    flex-basis: calc(100% / 5)
+    flex-basis: calc(100% / 4)
+
 }
 hr{
     margin-block: 100px;
@@ -97,3 +102,28 @@ hr{
 h1+p{
     margin-block: 40px;
 }
+.pari .col2{
+    order: -1;
+}
+/* .starred{
+    max-width: 40%;
+    background-image: url(./img/stars.svg);
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    
+} */
+footer h3{
+    color: #7289DA;
+}
+.bg-blu{
+    background-color: #7289DA;
+}
+.bg-gray,footer{
+    background-color: #23272A;
+}
+
+/* .wave{
+    background-image: url(./img/wave.svg);
+    background-size: cover;
+    padding-block: 50px;
+} */
